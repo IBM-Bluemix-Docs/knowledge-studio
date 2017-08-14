@@ -1,0 +1,82 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="knowledge-studio" audience="service" href="/docs/services/knowledge-studio/index.html"}
+Watson Knowledge Studio
+
+    {: .navgroup id="learn"}
+    index.md
+    system-requirements.md
+
+    {: topicgroup}
+    Getting started tutorials
+        tutorials-create-project.md
+        tutorials-create-ml-model.md
+        tutorials-create-rule-model.md
+        tutorials-bootstrap-annotation.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    accessibility.md
+    glossary.md
+    language-support.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    team.md
+    create-project.md
+
+    {: topicgroup}
+    Adding artifacts
+        artifacts.md
+        exportimport.md
+        typesystem.md
+        dictionaries.md
+
+    language-support-arabic.md
+
+    {: topicgroup}
+    Creating a rule-based annotator
+        rule-annotator.md
+        rule-annotator-add-doc.md
+        rule-annotator-define-rule.md
+        rule-annotator-model-create.md
+        rule-annotator-model-use.md
+
+    {: topicgroup}
+    Creating a machine-learning annotator
+        ml-annotator.md
+        documents-for-annotation.md
+        preannotation.md
+        annotate-documents.md
+        build-groundtruth.md
+        train-ml.md
+        evaluate-ml.md
+        improve-ml.md
+        publish-ml.md
+        alchemylanguage-gif.md
+
+
+    {: topicgroup}
+    Ground Truth Editor
+        user-guide.md
+        entity-gif.md
+        entity-gif0.md
+        concordance-gif.md
+        coref-gif.md
+        relation-gif.md
+
+    upgrade.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    release-notes.md
+    user-guide-help.md
+    troubleshooting.md
+
+    {: .topicgroup}
+    Developer community
+        [StackOverflow](https://stackoverflow.com/search?q=watson-knowledge-studio)
+        [developerWorks Answers](https://developer.ibm.com/answers/topics/watson-knowledge-studio/)
+        [WDC Slack channel](http://wdc-slack-inviter.mybluemix.net/)
+    {: .navgroup-end}
