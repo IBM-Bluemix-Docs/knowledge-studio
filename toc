@@ -5,15 +5,15 @@
 Watson Knowledge Studio
 
     {: .navgroup id="learn"}
-    index.md
-    system-requirements.md
-
     {: topicgroup}
     Getting started tutorials
         tutorials-create-project.md
         tutorials-create-ml-model.md
         tutorials-create-rule-model.md
         tutorials-bootstrap-annotation.md
+
+    index.md
+    system-requirements.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
