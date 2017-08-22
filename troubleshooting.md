@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-14"
+lastupdated: "2017-08-22"
 
 ---
 
@@ -95,7 +95,7 @@ However, problems that you can reproduce can have a disadvantage: If the problem
 ## Cannot access the application
 {: #wks_ts_access}
 
-Find out how to grant users access to {{site.data.keyword.watson}}&trade; {{site.data.keyword.knowledgestudioshort}} , and address common access issues.
+Find out how to grant users access to {{site.data.keyword.watson}}&trade; {{site.data.keyword.knowledgestudioshort}}, and address common access issues.
 
 You must have {{site.data.keyword.IBM_notm}} user registration credentials to request an instance of {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}}.
 
@@ -110,6 +110,25 @@ For information about how to invite people to use your instance of the applicati
 If you have been invited to someone's instance of {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} to serve as a human annotator, you likely received an email invitation. First, you must register with {{site.data.keyword.IBM_notm}} if you do not have {{site.data.keyword.IBM_notm}} registration credentials already. Once you register with {{site.data.keyword.IBM_notm}} and accept the invitation, you are given access to the instance. However, after you are given access and before you can start to annotate documents, the administrator or a project manager of the instance must add you to a project and assign an annotation task to you. It is not until after you have been assigned a task that you can perform any actions in the {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} instance. To annotate documents, use the Ground Truth Editor. Use a Google Chrome browser for the best performance.
 
 For help using the Ground Truth Editor, see the [User Guide: Ground Truth Editor](/docs/services/knowledge-studio/user-guide.html).
+
+## Can't create a free account
+{: #wks_ts_free}
+
+### Problem
+
+You try to create a free account and see the error message, `Error 331: We are unable to process your request. Please try again later or contact the {{site.data.keyword.IBM_notm}} Helpdesk.`
+
+### Causes
+
+{{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} does not permit more than one free account per organization.
+
+### Resolving the problem
+
+Create an account that is not included in the organization.
+
+If you need to use your current account for the free trial and your user account is associated with a paid account, you can submit a support ticket. For more information, see [Contacting {{site.data.keyword.IBM_notm}} Support](/docs/services/knowledge-studio/troubleshooting.html#ts_contactingibmsupport).
+
+If you need to use your current account for the free trial and your user account isn't associated with a paid account, post your issue to [{{site.data.keyword.IBM_notm}} developerWorks Answers](https://developer.ibm.com/answers/topics/wks/), making sure to tag the question, **WKS**.
 
 ## AlchemyLanguage model issues
 {: #wks_ts_deployed_model_deleted}
@@ -168,7 +187,7 @@ Wait 24 hours, and then run the pre-annotator again.
 ## Storage space issues
 {: #storage}
 
-Depending on your subscription plan, you might hit the storage limit specified for your plan and be prevented from performing tasks that you want to complete. 
+Depending on your subscription plan, you might hit the storage limit specified for your plan and be prevented from performing tasks that you want to complete.
 
 ### Symptoms
 
@@ -180,7 +199,7 @@ You might see a message about having exceeded the allowed storage space when you
 
 ### Causes
 
-The storage limit has been met or would be exceeded if the action were to proceed. 
+The storage limit has been met or would be exceeded if the action were to proceed.
 
 ### Resolving the problem
 
@@ -199,17 +218,17 @@ After removing models or model versions, wait an hour before you retry the actio
 
 ### Before you begin
 
-First, see if a solution is documented for the problem you are having. Review tech notes from the [{{site.data.keyword.IBM_notm}} Support Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/support/entry/portal){: new_window} page. Choose {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} from the Product finder list.
+First, see if a solution is documented for the problem you are having. Search {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} on the [{{site.data.keyword.IBM_notm}} Support Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/home/entry/portal){: new_window}. On the search results page, click the **Support** tab to see results from tech notes, {{site.data.keyword.IBM_notm}} Redbooks, and documentation. Click the **For developers** tab to see results from the {site.data.keyword.IBM_notm}} developerWorks community, such as blogs and forum questions.
 
-After trying to find your answer or solution by using self-help options, you can contact {{site.data.keyword.IBM_notm}} Support. The type of support that you have depends on your service type.
+After trying to find your answer or solution by searching the [{{site.data.keyword.IBM_notm}} Support Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")], you can contact {{site.data.keyword.IBM_notm}} Support. The type of support that you have depends on your service type.
 
 - **Free plan users**
 
-    Get help and answers to questions by asking fellow members of the community through the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} Developer community forum: [https://developer.ibm.com/answers/topics/wks/ ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/answers/topics/wks/){: new_window}
-
-    > **Note:** Subscription users can ask questions and learn from other users' questions too; the forum is open to everyone and is a great place to start.
+    Get help and answers to questions by asking fellow members of the developer community. For links to developer communities, see the **Developer community** section in the table of contents.
 
 - **Paid plan users**
+
+    As a paid plan user, you, too, can ask questions and learn from other users' questions. The forums are open to everyone and are a great place to start. For links, see the **Developer community** section in the table of contents.
 
     Submit a problem ticket from the [Client Success Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibmcloud.ts.parature.com/links/sso/watsonknowledgestudio){: new_window}.
 
