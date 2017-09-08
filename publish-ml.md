@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-14"
+lastupdated: "2017-09-07"
 
 ---
 
@@ -205,7 +205,7 @@ You can use the model with the {{site.data.keyword.nlushort}} `GET /analyze` req
     %20the%20left%20on%20an%20upgrade."
     -d "features=entities"
     -d "entities.model=10:7abc4c2f-5846-3334-b8f7-af5a6fad3398"
-    "https://gateway-s.watsonplatform.net/natural-language-understanding/api/v1/analyze" -k
+    "https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze" -k
     ```
     {: pre}
 
@@ -268,7 +268,7 @@ You can use the model with the {{site.data.keyword.nlushort}} `GET /analyze` req
     %20the%20left%20on%20an%20upgrade."
     -d "features=relations"
     -d "entities.model=10:7abc4c2f-5846-3334-b8f7-af5a6fad3398"
-    "https://gateway-s.watsonplatform.net/natural-language-understanding/api/v1/analyze" -k
+    "https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze" -k
     ```
     {: pre}
 
