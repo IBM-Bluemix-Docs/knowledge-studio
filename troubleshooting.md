@@ -187,7 +187,7 @@ For help using the Ground Truth Editor, see the [User Guide: Ground Truth Editor
 ## Experimental services: What does *experimental* mean?
 {: #experimental}
 
-For information about experimental services, see the [{{site.data.keyword.Bluemix_notm}} documentation](https://console.bluemix.net/docs/services/index.html#experimental_services). For the full details of experimental services, see the latest version of the [{{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} Service Description](http://www.ibm.com/software/sla/sladb.nsf/searchsaas/?searchview&searchorder=4&searchmax=0&query=IBM+Bluemix+Service+Description).
+For information about experimental services, see the [{{site.data.keyword.Bluemix_notm}} documentation](/docs/services/index.html#experimental_services). For the full details of experimental services, see the latest version of the [{{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} Service Description ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/software/sla/sladb.nsf/searchsaas/?searchview&searchorder=4&searchmax=0&query=IBM+Bluemix+Service+Description){: new_window}.
 
 ## Storage space issues
 {: #storage}
@@ -238,8 +238,6 @@ After trying to find your answer or solution by searching the [{{site.data.keywo
     Submit a problem ticket from the [Client Success Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibmcloud.ts.parature.com/links/sso/watsonknowledgestudio){: new_window}.
 
     > **Note:** You must be authorized to submit problems to {{site.data.keyword.IBM_notm}}.
-
-.
 
 ### Procedure
 

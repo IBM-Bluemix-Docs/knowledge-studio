@@ -23,7 +23,7 @@ lastupdated: "2017-09-11"
 Leverage a rule-based annotator that you created with {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} by making it available to other {{site.data.keyword.watson}} applications.
 {: shortdesc}
 
-**Attention**: You can deploy a rule-based model to make it available for use in these services as an [experimental](https://console.bluemix.net/docs/services/knowledge-studio/troubleshooting.html#experimental) feature.
+**Attention**: You can deploy a rule-based model to make it available for use in these services as an [experimental](/docs/services/knowledge-studio/troubleshooting.html#experimental) feature.
 
 Before a model can be deployed for use by a service, you must have a subscription to the service. {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} services are hosted on {{site.data.keyword.IBM_notm}}® {{site.data.keyword.Bluemix_notm}}® , which is the cloud platform for {{site.data.keyword.IBM_notm}}. See [What is {{site.data.keyword.Bluemix_notm}}? ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/docs/overview/whatisbluemix.html){: new_window} for more information about the platform. To subscribe to one of the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} services, create an account from the [{{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/){: new_window} website.
 
@@ -38,7 +38,7 @@ You can also pre-annotate new documents with the Rule annotator component. See [
 
 This feature enables your applications to use the deployed rule-based model to find and extract entities from documents in your domain.
 
-**Attention**: This is currently an [experimental](https://console.bluemix.net/docs/services/knowledge-studio/troubleshooting.html#experimental) feature of the service.
+**Attention**: This is currently an [experimental](/docs/services/knowledge-studio/troubleshooting.html#experimental) feature of the service.
 
 ### Before you begin
 
@@ -86,7 +86,7 @@ The following endpoint is supported:
 
 Deploy the model to enable an application that uses the {{site.data.keyword.discoveryshort}} service to use the rule-based model to find and extract entities during document enrichment.
 
-**Attention**: This is currently an [experimental](https://console.bluemix.net/docs/services/knowledge-studio/troubleshooting.html#experimental) feature of the service.
+**Attention**: This is currently an [experimental](/docs/services/knowledge-studio/troubleshooting.html#experimental) feature of the service.
 
 ### Before you begin
 
@@ -119,7 +119,7 @@ To use the deployed model, you must provide the model ID when it is requested du
 
 Deploy the rule-based model to enable an application that uses the {{site.data.keyword.nlushort}} service to use the model to find and extract entities that are relevant to your domain.
 
-**Attention**: This is currently an [experimental](https://console.bluemix.net/docs/services/knowledge-studio/troubleshooting.html#experimental) feature of the service.
+**Attention**: This is currently an [experimental](/docs/services/knowledge-studio/troubleshooting.html#experimental) feature of the service.
 
 ### Before you begin
 
