@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-07"
+lastupdated: "2017-09-10"
 
 ---
 
@@ -147,8 +147,9 @@ To deploy a machine-learning annotator to {{site.data.keyword.watson}} {{site.da
 
     If there is only one working version of the model, create a snapshot of the current model. This versions the model, which enables you to deploy one version, while you continue to improve the current version. The option to deploy does not appear until you create at least one version.
 
-1. Click **Deploy**, and choose to deploy it to {{site.data.keyword.discoveryshort}} , and then click **Next**.
-1. Provide the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space and instance names, and then click **Deploy**.
+1. Click **Deploy**, choose to deploy it to {{site.data.keyword.discoveryshort}}, and then click **Next**.
+1. Select the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space and instance. If necessary, select a different region.
+1. Click **Deploy**.
 1. The deployment process might take a few minutes. To check the status of the deployment, click **Status** on the **Versions** tab next to the version that you deployed.
 
     If the model is still being deployed, the status indicates "publishing". After deployment completes, the status changes to "available" if the deployment was successful, or "error" if problems occurred.
@@ -181,8 +182,9 @@ To deploy a machine-learning annotator to the {{site.data.keyword.nlushort}} ser
 
     If there is only one working version of the model, create a snapshot of the current model. This versions the model, which enables you to deploy one version, while you continue to improve the current version. The option to deploy does not appear until you create at least one version.
 
-1. Click **Deploy**, and choose to deploy it to {{site.data.keyword.nlushort}} , and then click **Next**.
-1. Provide the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space and instance names, and then click **Deploy**.
+1. Click **Deploy**, choose to deploy it to {{site.data.keyword.nlushort}}, and then click **Next**.
+1. Select the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space and instance. If necessary, select a different region.
+1. Click **Deploy**.
 1. The deployment process might take a few minutes. To check the status of the deployment, click **Status** on the **Versions** tab next to the version that you deployed. If the model is still being deployed, the status indicates "publishing". After deployment completes, the status changes to "available" if the deployment was successful, or "error" if problems occurred.
 
     Once available, make a note of the model ID (model_id). You will provide this ID to the {{site.data.keyword.nlushort}} service to enable the service to use your custom model.
