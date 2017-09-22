@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-14"
+lastupdated: "2017-09-18"
 
 ---
 
@@ -30,6 +30,8 @@ You can train an annotator component in the following languages:
 - English (the default language)
 - Arabic
 - Brazilian Portuguese
+- Chinese (Simplified)
+- Dutch
 - French
 - German
 - Italian

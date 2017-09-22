@@ -36,7 +36,7 @@ Watson Knowledge Studio
     language-support-arabic.md
 
     {: topicgroup}
-    Creating a rule-based annotator
+    Creating a rule-based model
         rule-annotator.md
         rule-annotator-add-doc.md
         rule-annotator-define-rule.md
@@ -44,7 +44,7 @@ Watson Knowledge Studio
         rule-annotator-model-use.md
 
     {: topicgroup}
-    Creating a machine-learning annotator
+    Creating a machine-learning model
         ml-annotator.md
         documents-for-annotation.md
         preannotation.md
