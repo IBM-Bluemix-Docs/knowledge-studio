@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-22"
+lastupdated: "2017-10-02"
 
 ---
 
@@ -22,6 +22,18 @@ lastupdated: "2017-09-22"
 
 The following new features and changes to {{site.data.keyword.knowledgestudiofull}} are available.
 {: shortdesc}
+
+## October 2017
+{: #october2017}
+
+### Changes
+{: #new-october2017}
+
+- Fixed the issue with the **Export** button not being enabled until you refreshed the browser window in the {{site.data.keyword.Bluemix_notm}} [experimental](/docs/services/knowledge-studio/troubleshooting.html#experimental) release.
+- Fixed the button labels and tooltips to match the changes for the terms _upload_ and _download_ in the {{site.data.keyword.Bluemix_notm}} [experimental](/docs/services/knowledge-studio/troubleshooting.html#experimental) release. These terms  are used instead of _import_ and _export_ when referring to type systems, documents, and dictionaries.
+- Fixed the delay in updating the descriptions on the {{site.data.keyword.knowledgestudioshort}} User Account Management page in the {{site.data.keyword.Bluemix_notm}} [experimental](/docs/services/knowledge-studio/troubleshooting.html#experimental) release.
+- In the pre-annotation section of the interface, made a couple GUI changes to clarify the functionality of the machine learning model, the rule-based model, the dictionary, and {{site.data.keyword.alchemylanguagefull}}. Changed the button label from **Run** to **Pre-annotate**, changed the title of the window from **Run Annotator** to **Run Pre-annotation**, and changed the error message to clarify that you can't add automated annotations after humans annotated the documents.
+- For projects or workspaces that use dictionary-based tokenizers, fixed an issue that showed empty sentences if you imported documents without ground truth.
 
 ## September 2017
 {: #september2017}
