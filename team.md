@@ -44,7 +44,7 @@ Invite people to fill these roles:
 
     The project manager is someone who helps to facilitate the creation of annotator components by performing such tasks as creating project artifacts, and training, creating, and deploying models. For projects that build machine-learning annotators, they also manage the document annotation process by assigning document review tasks to human annotators, adjudicating annotation conflicts, and approving documents to add to the ground truth.
 
-> **Important:** If you have a free plan subscription, you cannot invite others to access your instance of {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}}. Instead, you are added to the instance as an administrator. In the administrator role, you can perform many functions that would typically be performed by different people who are invited and assigned to different roles. You can test out how easy it is for experts from different areas of a domain to work together to build a machine-learning or rules-based model.
+> **Important:** If you have a free plan subscription, you cannot invite others to access your instance of {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}}. Instead, you are added to the instance as an administrator. In the administrator role, you can perform many functions that are typically performed by different people who are invited and assigned to different roles. You can test how easy it is for experts from different areas of a domain to work together to build a machine-learning or rules-based model.
 
 ## Procedure
 
