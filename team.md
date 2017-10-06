@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-14"
+lastupdated: "2017-10-04"
 
 ---
 
@@ -28,7 +28,7 @@ The creation of an annotator component requires input from subject matter expert
 You should have already performed these tasks:
 
 - Registered with ibm.com, and created an {{site.data.keyword.IBM_notm}} ID.
-- From [{{site.data.keyword.IBM_notm}} Marketplace ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibm.biz/watsonknowledge){: new_window}, sign up for a free plan or purchase a subscription to use {{site.data.keyword.knowledgestudiofull}}.
+- From [{{site.data.keyword.IBM_notm}} Marketplace ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibm.biz/watsonknowledge){: new_window}, sign up for a plan for {{site.data.keyword.knowledgestudiofull}} that allows for more than one user.
 
     An instance of {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} is created for you to use. Your {{site.data.keyword.IBM_notm}} ID is automatically given administrative access to the instance. As the administrator, you can then invite others.
 
@@ -44,19 +44,19 @@ Invite people to fill these roles:
 
     The project manager is someone who helps to facilitate the creation of annotator components by performing such tasks as creating project artifacts, and training, creating, and deploying models. For projects that build machine-learning annotators, they also manage the document annotation process by assigning document review tasks to human annotators, adjudicating annotation conflicts, and approving documents to add to the ground truth.
 
-> **Important:** If you have a free plan subscription, you cannot invite others to access your instance of {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}}. Instead, you are added to the instance as an ADMIN. In the administrator role, you can perform many functions that would typically be performed by different people who are invited and assigned to different roles. You can fill the shoes of multiple people to test out how easy it is for experts from different areas of a domain to work together to build a machine-learning or rules-based model.
+> **Important:** If you have a free plan subscription, you cannot invite others to access your instance of {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}}. Instead, you are added to the instance as an administrator. In the administrator role, you can perform many functions that are typically performed by different people who are invited and assigned to different roles. You can test how easy it is for experts from different areas of a domain to work together to build a machine-learning or rules-based model.
 
 ## Procedure
 
 To add users to a {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} system:
 
 1. Log in to the My {{site.data.keyword.IBM_notm}} Products and Services page with your {{site.data.keyword.IBM_notm}} ID: [https://myibm.ibm.com/products-services/ ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://myibm.ibm.com/products-services/){: new_window}
-1. Click **More actions** on the {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} offering tile.
-1. Click **Manage authorizations**. To invite a user, scroll down and add the {{site.data.keyword.IBM_notm}} ID or email address of the person that you want to invite into the **Add new user** field. If you want the user to be authorized to invite more users, then select the **Make administrator** check box. Keep in mind that most subscriptions have a user limit.
+1. Click **Manage** on the {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} offering tile.
+1. Click **Manage users**. To invite a user, add the {{site.data.keyword.IBM_notm}} ID or email address of the person that you want to invite. If you want the user to be authorized to invite more users, select the **Administrator** check box. Keep in mind that most subscriptions have a user limit.
 
     > **Attention:** This person is given administrative access to the subscription; not to the {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} application. The user can invite or remove others from accessing the {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} instance. However, everyone that is invited, whether they are a subscription administrator or not, is automatically assigned to the HUMANANNOTATOR role within {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}}. Only the admin is assigned to the ADMIN role. An ADMIN must explicitly change the user role within {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} to grant someone additional privileges.
 
-1. Click **Add user**.
+1. Click **Submit**.
 
     Repeat this process to invite more people.
 
