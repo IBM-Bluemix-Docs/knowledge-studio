@@ -99,7 +99,7 @@ To upgrade roles for {{site.data.keyword.knowledgestudioshort}} users:
 
         Users with this role can annotate documents that are in projects where they are assigned the human annotator role, and in a document set that is associated with aannotation tasks that are assigned to them.
 
-        > **Important:** You must create a project, associate this user with a document set, and assign an annotation task to this user before the user will be able to see any projects listed in the {{site.data.keyword.knowledgestudioshort}} application. Set up the project as soon as possible after people you invited register, so that they will see your project when they first access the application. You might want to notify users after you set up the project to let them know that they can start annotating documents.
+        > **Important:** You must create a project, associate a user with a document set, and assign an annotation task to a user before the user can see any projects listed in the {{site.data.keyword.knowledgestudioshort}} application. Set up the project as soon as possible after users register so that they see your project when they first access the application. You might want to notify users after you set up the project to let them know that they can start annotating documents.
 
 1. Click the role of the user and choose the role you want to upgrade that user to.
 1. Optional: When you finish administering users in {{site.data.keyword.knowledgestudioshort}}, exit the session by closing the web browser. The {{site.data.keyword.knowledgestudioshort}} user interface does not provide an action for explicitly logging out.
