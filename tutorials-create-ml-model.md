@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-14"
+lastupdated: "2017-10-24"
 
 ---
 
@@ -37,13 +37,13 @@ This tutorial should take approximately 60 minutes to finish. If you explore oth
 
 ## Prerequisites
 
-You must have successfully completed [Tutorial: Creating a project](/docs/services/knowledge-studio/tutorials-create-project.html).
+- You're using a supported browser. For information, see [Browser requirements](/docs/services/knowledge-studio/system-requirements.html).
+- You successfully completed [Tutorial: Creating a project](/docs/services/knowledge-studio/tutorials-create-project.html).
+- You must have at least one user ID in either the ADMIN or PROJECTMANAGER role.
 
-You must have at least one user ID in either the ADMIN or PROJECTMANAGER role.
+    > **Note:** If possible, use multiple user IDs for the machine-learning annotator tasks in this tutorial (one ADMIN or PROJECTMANAGER user ID, and at least two HUMANANNOTATOR user IDs). Using multiple user IDs provides the most realistic simulation of an actual {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}}™ {{site.data.keyword.knowledgestudioshort}} project, where a project manager must coordinate and adjudicate annotation performed by multiple human annotators. However, if you have access to only a single user ID, you can still simulate most parts of the process.
 
-> **Note:** If possible, use multiple user IDs for the machine-learning annotator tasks in this tutorial (one ADMIN or PROJECTMANAGER user ID, and at least two HUMANANNOTATOR user IDs). Using multiple user IDs provides the most realistic simulation of an actual {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}}™ {{site.data.keyword.knowledgestudioshort}} project, where a project manager must coordinate and adjudicate annotation performed by multiple human annotators. However, if you have access to only a single user ID, you can still simulate most parts of the process.
-
-For information about creating users, see [Assembling a team](/docs/services/knowledge-studio/team.html).
+    For information about user roles, see [Assembling a team](/docs/services/knowledge-studio/team.html).
 
 ## Results
 

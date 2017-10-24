@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-14"
+lastupdated: "2017-10-24"
 
 ---
 
@@ -39,13 +39,16 @@ This tutorial should take approximately 30 minutes to finish. If you explore oth
 
 ## Prerequisites
 
-You must have successfully completed [Tutorial: Creating a project](/docs/services/knowledge-studio/tutorials-create-project.html).
-
-You must have at least one user ID in either the ADMIN or PROJECTMANAGER role. For information about creating users, see [Assembling a team](/docs/services/knowledge-studio/team.html).
+- You're using a supported browser. For information, see [Browser requirements](/docs/services/knowledge-studio/system-requirements.html).
+- You successfully completed [Tutorial: Creating a project](/docs/services/knowledge-studio/tutorials-create-project.html).
+- You must have at least one user ID in either the ADMIN or PROJECTMANAGER role. For information about user roles, see [Assembling a team](/docs/services/knowledge-studio/team.html).
 
 ## Results
 
-After completing this tutorial, you will have a rule-based model that you can be used by other {{site.data.keyword.watson}} services to find text patterns in documents.
+After you create the rule-based model, you can use it in one of the following ways to find text patterns in documents:
+
+- [Pre-annotate your documents](/docs/services/knowledge-studio/preannotation.html#wks_preannotrule) before you create a machine learning model
+- [Deploy or export the model](/docs/services/knowledge-studio/rule-annotator-model-use.html) to other {{site.data.keyword.watson}} services or products
 
 ## Lesson 1: Adding a dictionary of months
 {: #wks_tutless_rule1}
@@ -332,7 +335,7 @@ For more information about creating a rule annotator, see [Creating the rule-bas
 
     ![Shows the user clicking the Create this type of annotator button on the Rule annotator tile.](images/rule-anno1.jpg)
 
-1. Map the *RuleDate* class that you defined to corresponding to the *DATE* entity from the type system.
+1. Map the *RuleDate* class that you defined corresponding to the *DATE* entity from the type system.
 
     1. Find the **DATE** entity, and click **Edit**.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-14"
+lastupdated: "2017-10-24"
 
 ---
 
@@ -35,7 +35,10 @@ This tutorial should take approximately 15 minutes to finish. If you explore oth
 
 ## Prerequisites
 
-To complete this tutorial, you must have at least one user ID that you can use in {{site.data.keyword.watson}}&trade; {{site.data.keyword.knowledgestudioshort}}. This user ID must have the ADMIN role.
+- Register with [myibm.ibm.com ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://myibm.ibm.com/), and create an {{site.data.keyword.IBM_notm}} ID.
+- From [{{site.data.keyword.IBM_notm}} Marketplace ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibm.biz/watsonknowledge){: new_window}, sign up for a plan.
+- You're using a supported browser. For information, see [Browser requirements](/docs/services/knowledge-studio/system-requirements.html).
+- To complete this tutorial, you must have at least one user ID that you can use in {{site.data.keyword.watson}}&trade; {{site.data.keyword.knowledgestudioshort}}. This user ID must have the ADMIN role. If you signed up for a free plan, as the subscription owner, you have the ADMIN role. For information about user roles, see [Assembling a team](/docs/services/knowledge-studio/team.html).
 
 ## Results
 
