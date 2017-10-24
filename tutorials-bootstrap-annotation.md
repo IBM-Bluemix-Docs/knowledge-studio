@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-14"
+lastupdated: "2017-10-24"
 
 ---
 
@@ -31,9 +31,9 @@ This tutorial should take approximately 5 minutes to finish. If you explore othe
 
 ## Prerequisites
 
-You must have successfully completed [Tutorial: Creating a project](/docs/services/knowledge-studio/tutorials-create-project.html) and [Tutorial: Creating a machine-learning model](/docs/services/knowledge-studio/tutorials-create-ml-model.html).
-
-You must have at least one user ID in either the ADMIN or PROJECTMANAGER role. For information about creating users, see [Assembling a team](/docs/services/knowledge-studio/team.html).
+- You're using a supported browser. For information, see [Browser requirements](/docs/services/knowledge-studio/system-requirements.html).
+- You successfully completed [Tutorial: Creating a project](/docs/services/knowledge-studio/tutorials-create-project.html) and [Tutorial: Creating a machine-learning model](/docs/services/knowledge-studio/tutorials-create-ml-model.html).
+- You must have at least one user ID in either the ADMIN or PROJECTMANAGER role. For information about user roles, see [Assembling a team](/docs/services/knowledge-studio/team.html).
 
 ## Results
 
