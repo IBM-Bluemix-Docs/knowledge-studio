@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-12"
+lastupdated: "2017-11-03"
 
 ---
 
@@ -235,7 +235,7 @@ After trying to find your answer or solution by searching the [{{site.data.keywo
 
     As a paid plan user, you, too, can ask questions and learn from other users' questions. The forums are open to everyone and are a great place to start. For links, see the **Developer community** section in the table of contents.
 
-    Submit a problem ticket from the [Client Success Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibmcloud.ts.parature.com/links/sso/watsonknowledgestudio){: new_window}.
+    Submit a problem ticket from the [{{site.data.keyword.IBM_notm}} Cloud Service Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson.service-now.com/wcp){: new_window}.
 
     > **Note:** You must be authorized to submit problems to {{site.data.keyword.IBM_notm}}.
 
@@ -245,4 +245,4 @@ To contact {{site.data.keyword.IBM_notm}} Support about a problem:
 
 1. Define the problem, gather background information, and determine the severity of the problem.
 1. Gather diagnostic information, if possible.
-1. Submit the problem to {{site.data.keyword.IBM_notm}} Support. For contact details, refer to the [SaaS Support Handbook ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www-01.ibm.com/software/support/acceleratedvalue/SaaS_Handbook_V18.pdf){: new_window}.
+1. Submit the problem to {{site.data.keyword.IBM_notm}} Support. For contact details, refer to the [Software as a Service support guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www-01.ibm.com/software/support/acceleratedvalue/SaaS_Handbook_V18.pdf){: new_window}.
