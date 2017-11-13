@@ -27,7 +27,7 @@ The creation of an annotator component requires input from subject matter expert
 
 You should have already performed these tasks:
 
-- Registered with [myibm.ibm.com](https://myibm.ibm.com/), and created an {{site.data.keyword.IBM_notm}} ID.
+- Registered with [myibm.ibm.com ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://myibm.ibm.com/){: new_window}, and created an {{site.data.keyword.IBM_notm}} ID.
 - From [{{site.data.keyword.IBM_notm}} Marketplace ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibm.biz/watsonknowledge){: new_window}, sign up for a plan for {{site.data.keyword.knowledgestudiofull}} that allows for more than one user.
 
     An instance of {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} is created for you to use. You are the subscription owner. Your {{site.data.keyword.IBM_notm}} ID is automatically given administrative access to the instance. As an administrator, you can then invite others.
