@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-02"
+lastupdated: "2017-11-29"
 
 ---
 
@@ -22,6 +22,16 @@ lastupdated: "2017-10-02"
 
 The following new features and changes to {{site.data.keyword.knowledgestudiofull}} are available.
 {: shortdesc}
+
+## November 2017
+{: #november2017}
+
+### Changes
+{: #new-november2017}
+
+- Fixed an issue where some relation annotations were missing in the exported corpus.
+- Fixed an issue where a model could not be withdrawn from deployment if its status was **None**.
+- Fixed an issue where the model could not be evaluated for Korean.
 
 ## October 2017
 {: #october2017}
