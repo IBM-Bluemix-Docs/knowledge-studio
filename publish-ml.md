@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-10"
+lastupdated: "2017-12-05"
 
 ---
 
@@ -25,11 +25,11 @@ Leverage a machine-learning model that you trained with {{site.data.keyword.wats
 
 You can deploy or export a machine-learning annotator. A dictionary or {{site.data.keyword.alchemylanguageshort}} pre-annotator can only be used to pre-annotate documents within {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}}.
 
-Before a model can be deployed for use by a service, you must have a subscription to the service. {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} services are hosted on {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_short}} , which is the cloud platform for {{site.data.keyword.IBM_notm}}. See [What is {{site.data.keyword.Bluemix_notm}}? ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/docs/overview/whatisbluemix.html){: new_window} for more information about the platform. To subscribe to one of the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} services, create an account from the [{{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/){: new_window} website.
+Before a model can be deployed for use by a service, you must have a subscription to the service. {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} services are hosted on {{site.data.keyword.Bluemix_short}}, which is the cloud platform for {{site.data.keyword.IBM_notm}}. See [What is {{site.data.keyword.Bluemix_notm}}? ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/docs/overview/whatisbluemix.html){: new_window} for more information about the platform. To subscribe to one of the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} services, create an account from the [{{site.data.keyword.Bluemix_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/){: new_window} website.
 
-For some of the services, you must know details about the service instance that you plan to deploy to, such as the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space name and service instance name. The space and instance name information is available from the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} Services page. The following illustration highlights where you can find the information after you create an account and log in to {{site.data.keyword.Bluemix_notm}}. For example, in this illustration the instance name is *My-{{site.data.keyword.discoveryshort}}-App*, the region name is *US South*, and the space name is *prod1*.
+For some of the services, you must know details about the service instance that you plan to deploy to, such as the {{site.data.keyword.Bluemix_notm}} space name and service instance name. The space and instance name information is available from the {{site.data.keyword.Bluemix_notm}} Services page. The following illustration highlights where you can find the information after you create an account and log in to {{site.data.keyword.Bluemix_notm}}. For example, in this illustration the instance name is *My-{{site.data.keyword.discoveryshort}}-App*, the region name is *US South*, and the space name is *prod1*.
 
-![Illustration of the IBM Bluemix Watson Services page. Shows that the instance name is listed in the NAME column, and the region and space information is displayed in the account details box. ](images/bluemix-helper-marked0.jpg)
+![Illustration of the {{site.data.keyword.cloud_notm}} Watson Services page. Shows that the instance name is listed in the NAME column, and the region and space information is displayed in the account details box.](images/bluemix-helper-marked0.jpg)
 
 You can also pre-annotate new documents with the machine-learning annotator component. See [Pre-annotating documents with a machine-learning annotator](/docs/services/knowledge-studio/preannotation.html#wks_preannotsire) for details.
 
@@ -132,7 +132,7 @@ When you are satisfied with the performance of the annotator component, you can 
 
 ### Before you begin
 
-You must be have administrative access to a {{site.data.keyword.watson}} {{site.data.keyword.discoveryshort}} service instance, and know the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space and instance names that are associated with it.
+You must have administrative access to a {{site.data.keyword.watson}} {{site.data.keyword.discoveryshort}} service instance, and know the {{site.data.keyword.Bluemix_notm}} space and instance names that are associated with it.
 
 ### About this task
 
@@ -140,7 +140,7 @@ When you deploy the machine-learning annotator, you select the version of it tha
 
 ### Procedure
 
-To deploy a machine-learning annotator to {{site.data.keyword.watson}} {{site.data.keyword.discoveryshort}} , complete the following steps:
+To deploy a machine-learning annotator to {{site.data.keyword.watson}} {{site.data.keyword.discoveryshort}}, complete the following steps:
 
 1. Log in as a {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} administrator or project manager, open the **Annotator Component** page, and click **Details** on the Machine-learning annotator tile.
 1. On the **Versions** tab, choose the version of the model that you want to deploy.
@@ -148,7 +148,7 @@ To deploy a machine-learning annotator to {{site.data.keyword.watson}} {{site.da
     If there is only one working version of the model, create a snapshot of the current model. This versions the model, which enables you to deploy one version, while you continue to improve the current version. The option to deploy does not appear until you create at least one version.
 
 1. Click **Deploy**, choose to deploy it to {{site.data.keyword.discoveryshort}}, and then click **Next**.
-1. Select the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space and instance. If necessary, select a different region.
+1. Select the {{site.data.keyword.Bluemix_notm}} space and instance. If necessary, select a different region.
 1. Click **Deploy**.
 1. The deployment process might take a few minutes. To check the status of the deployment, click **Status** on the **Versions** tab next to the version that you deployed.
 
@@ -167,7 +167,7 @@ When you are satisfied with the performance of the annotator component, you can 
 
 ### Before you begin
 
-You must have an {{site.data.keyword.nlushort}} service to deploy to. And you must know the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space and instance names that are associated with the service. If you do not remember the space or instance names, find them by logging in to {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}. If you do not have a {{site.data.keyword.Bluemix_notm}} account, sign up for an account.
+You must have a {{site.data.keyword.nlushort}} service to deploy to. And you must know the {{site.data.keyword.Bluemix_notm}} space and instance names that are associated with the service. If you do not remember the space or instance names, find them by logging in to {{site.data.keyword.Bluemix_notm}}. If you do not have an {{site.data.keyword.Bluemix_notm}} account, sign up for an account.
 
 ### About this task
 
@@ -183,7 +183,7 @@ To deploy a machine-learning annotator to the {{site.data.keyword.nlushort}} ser
     If there is only one working version of the model, create a snapshot of the current model. This versions the model, which enables you to deploy one version, while you continue to improve the current version. The option to deploy does not appear until you create at least one version.
 
 1. Click **Deploy**, choose to deploy it to {{site.data.keyword.nlushort}}, and then click **Next**.
-1. Select the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space and instance. If necessary, select a different region.
+1. Select the {{site.data.keyword.Bluemix_notm}} space and instance. If necessary, select a different region.
 1. Click **Deploy**.
 1. The deployment process might take a few minutes. To check the status of the deployment, click **Status** on the **Versions** tab next to the version that you deployed. If the model is still being deployed, the status indicates "publishing". After deployment completes, the status changes to "available" if the deployment was successful, or "error" if problems occurred.
 
