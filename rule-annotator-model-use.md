@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-11"
+lastupdated: "2017-12-05"
 
 ---
 
@@ -25,11 +25,11 @@ Leverage a rule-based annotator that you created with {{site.data.keyword.watson
 
 **Attention**: You can deploy a rule-based model to make it available for use in these services as an [experimental](/docs/services/knowledge-studio/troubleshooting.html#experimental) feature.
 
-Before a model can be deployed for use by a service, you must have a subscription to the service. {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} services are hosted on {{site.data.keyword.IBM_notm}}® {{site.data.keyword.Bluemix_notm}}® , which is the cloud platform for {{site.data.keyword.IBM_notm}}. See [What is {{site.data.keyword.Bluemix_notm}}? ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/docs/overview/whatisbluemix.html){: new_window} for more information about the platform. To subscribe to one of the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} services, create an account from the [{{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/){: new_window} website.
+Before a model can be deployed for use by a service, you must have a subscription to the service. {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} services are hosted on {{site.data.keyword.Bluemix_notm}}, which is the cloud platform for {{site.data.keyword.IBM_notm}}. See [What is {{site.data.keyword.Bluemix_notm}}? ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/docs/overview/whatisbluemix.html){: new_window} for more information about the platform. To subscribe to one of the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} services, create an account from the [{{site.data.keyword.Bluemix_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/){: new_window} website.
 
-For some of the services, you must know details about the service instance that you plan to deploy to, such as the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space name and service instance name. The space and instance name information is available from the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} Services page. The following illustration highlights where you can find the information after you create an account and log in to {{site.data.keyword.Bluemix_notm}}. For example, in this illustration the instance name is *My-{{site.data.keyword.discoveryshort}}-App*, the region name is *US South*, and the space name is *prod1*.
+For some of the services, you must know details about the service instance that you plan to deploy to, such as the {{site.data.keyword.Bluemix_notm}} space name and service instance name. The space and instance name information is available from the {{site.data.keyword.Bluemix_notm}} services page. The following illustration highlights where you can find the information after you create an account and log in to {{site.data.keyword.Bluemix_notm}}. For example, in this illustration the instance name is *My-{{site.data.keyword.discoveryshort}}-App*, the region name is *US South*, and the space name is *prod1*.
 
-![Illustration of the IBM Bluemix Watson Services page. Shows that the instance name is listed in the NAME column and that the regions and space information is displayed in the account details box. ](images/bluemix-helper-marked0.jpg)
+![Illustration of the {{site.data.keyword.cloud_notm}} Watson Services page. Shows that the instance name is listed in the NAME column and that the regions and space information is displayed in the account details box.](images/bluemix-helper-marked0.jpg)
 
 You can also pre-annotate new documents with the Rule annotator component. See [Pre-annotating documents with the rule annotator](/docs/services/knowledge-studio/preannotation.html#wks_preannotrule) for details.
 
@@ -90,7 +90,7 @@ Deploy the model to enable an application that uses the {{site.data.keyword.disc
 
 ### Before you begin
 
-You must be have administrative access to a {{site.data.keyword.watson}} {{site.data.keyword.discoveryshort}} service instance, and know the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space and instance names that are associated with it.
+You must have administrative access to a {{site.data.keyword.watson}} {{site.data.keyword.discoveryshort}} service instance, and know the {{site.data.keyword.Bluemix_notm}} space and instance names that are associated with it.
 
 ### Procedure
 
@@ -102,7 +102,7 @@ To deploy a rule-based model to {{site.data.keyword.watson}} {{site.data.keyword
     If there is only one working version of the model, save the current model for deployment by clicking **Save for Deployment**. This versions the model, which enables you to deploy one version, while you continue to improve the current version. Saving the version might take a few minutes. The option to deploy does not appear until after the version is created.
 
 1. Click **Deploy**, choose to deploy it to {{site.data.keyword.discoveryshort}}, and then click **Next**.
-1. Provide the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space and instance. If necessary, select a different region.
+1. Provide the {{site.data.keyword.Bluemix_notm}} space and instance. If necessary, select a different region.
 1. Click **Deploy**.
 1. The deployment process might take a few minutes. To check the status of the deployment, click **Status** on the **Versions** tab next to the version that you deployed.
 
@@ -123,7 +123,7 @@ Deploy the rule-based model to enable an application that uses the {{site.data.k
 
 ### Before you begin
 
-You must be have administrative access to a {{site.data.keyword.nlushort}} service instance, and know the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space and instance names that are associated with it.
+You must be have administrative access to a {{site.data.keyword.nlushort}} service instance, and know the {{site.data.keyword.Bluemix_notm}} space and instance names that are associated with it.
 
 ### Procedure
 
@@ -135,7 +135,7 @@ To deploy a rule-based model to {{site.data.keyword.nlushort}} , complete the fo
     If there is only one working version of the model, save the current model for deployment by clicking **Save for Deployment**. This versions the model, which enables you to deploy one version, while you continue to improve the current version. Saving the version might take a few minutes. The option to deploy does not appear until after the version is created.
 
 1. Click **Deploy**, choose to deploy it to {{site.data.keyword.nlushort}}, and then click **Next**.
-1. Provide the {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} space and instance. If necessary, select a different region.
+1. Provide the {{site.data.keyword.Bluemix_notm}} space and instance. If necessary, select a different region.
 1. Click **Deploy**.
 1. The deployment process might take a few minutes. To check the status of the deployment, click **Status** on the **Versions** tab next to the version that you deployed.
 

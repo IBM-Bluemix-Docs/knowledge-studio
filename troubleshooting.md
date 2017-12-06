@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-11-03"
+lastupdated: "2017-12-05"
 
 ---
 
@@ -111,7 +111,7 @@ The following events can cause problems with deployed models:
 
 - If you mistype the {{site.data.keyword.alchemyapishort}} key when you add the key to the `apikey` parameter of the REST API call, then the call will fail. The same is true for the model ID. It is best to copy and paste the model ID and API key to avoid typing errors.
 - If you provide an {{site.data.keyword.alchemyapishort}} key that is invalid or is not authorized to deploy a custom model, then the deployment process will indicate that the model was successfully deployed, but you will not be able to use it.
-- If, while using {{site.data.keyword.alchemylanguageshort}} in {{site.data.keyword.Bluemix}}, you delete all of the service instances that are associated with an {{site.data.keyword.alchemyapishort}} key in {{site.data.keyword.Bluemix_notm}}, then any deployed models that reference that key will be removed from the service. {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} periodically checks whether registered models are associated with a valid key, and any models that are not, are deleted. If your model was deployed against a key that gets deleted, the status of the model will change to `error`.
+- If, while using {{site.data.keyword.alchemylanguageshort}} in {{site.data.keyword.Bluemix}}, you delete all of the service instances that are associated with an {{site.data.keyword.alchemyapishort}} key in {{site.data.keyword.Bluemix_notm}}, then any deployed models that reference that key will be removed from the service. {{site.data.keyword.Bluemix_notm}} periodically checks whether registered models are associated with a valid key, and any models that are not, are deleted. If your model was deployed against a key that gets deleted, the status of the model will change to `error`.
 
 ### Resolving the problem
 
@@ -187,7 +187,7 @@ For help using the Ground Truth Editor, see the [User Guide: Ground Truth Editor
 ## Experimental services: What does *experimental* mean?
 {: #experimental}
 
-For information about experimental services, see the [{{site.data.keyword.Bluemix_notm}} documentation](/docs/services/index.html#experimental_services). For the full details of experimental services, see the latest version of the [{{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} Service Description ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/software/sla/sladb.nsf/searchsaas/?searchview&searchorder=4&searchmax=0&query=IBM+Bluemix+Service+Description){: new_window}.
+For information about experimental services, see the [{{site.data.keyword.Bluemix_notm}} documentation](/docs/services/index.html#experimental_services). For the full details of experimental services, see the latest version of the [{{site.data.keyword.Bluemix_notm}} Service Description ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/software/sla/sladb.nsf/searchsaas/?searchview&searchorder=4&searchmax=0&query=IBM+Bluemix+Service+Description){: new_window}.
 
 ## Storage space issues
 {: #storage}
