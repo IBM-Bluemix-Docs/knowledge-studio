@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-12-05"
+lastupdated: "2017-12-08"
 
 ---
 
@@ -159,8 +159,6 @@ Adding dictionaries is an optional step in creating an annotator component. Dict
 
 If you provide a dictionary, you can run the dictionary pre-annotator on the documents. The pre-annotator finds terms that are represented in your dictionary and automatically annotates them. This initial pass on the documents simplifies the human annotator's job because she can review the annotations that were added by the pre-annotator and correct them or add to them. She does not have to start entirely from scratch.
 
-To quickly supplement the dictionaries that are used by the project with domain terminology, you can download an industry-specific dictionary from the [{{site.data.keyword.Bluemix_notm}} Analytics Exchange  ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/data/exchange/){: new_window} site. Download the dictionary as a CSV file. The CSV file must be smaller than 1MB. If the file is larger, consider breaking it up into multiple smaller files. You can then create a dictionary, and add the industry terminology by importing the CSV file of dictionary terms that you downloaded.
-
 The following restriction apply to dictionaries:
 
 - Maximum 15,000 entries per dictionary
@@ -189,7 +187,7 @@ To add a dictionary to your project:
 1. To add entries to the dictionary, perform one of the following tasks:
 
     - Click **Add Entry** to add a dictionary entry. Specify the lemma (the most representative word form for the term).
-    - Click **Import** to import a `CSV` file that contains dictionary entries, and then browse to select the file. This could be an industry-specific dictionary that you downloaded from {{site.data.keyword.Bluemix_notm}} Analytics Exchange, for example. The CSV file must be smaller than 1MB.
+    - Click **Import** to import a `CSV` file that contains dictionary entries, and then browse to select the file. The CSV file must be smaller than 1MB.
 
 1. After importing or adding entries, you can edit the entries.
 

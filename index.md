@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-12-05"
+lastupdated: "2017-12-08"
 
 ---
 
@@ -54,8 +54,7 @@ Share domain artifacts and models between {{site.data.keyword.knowledgestudioful
 Use {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} to perform the following tasks:
 
 - Bootstrap annotation by using the {{site.data.keyword.alchemylanguageshort}} entity extraction service to automatically find and annotate entities in your documents. When human annotators begin to annotate the documents, they can see the annotations that were already made by the service and can review and add to them. See [Pre-annotating documents with {{site.data.keyword.IBM_notm}} {{site.data.keyword.alchemylanguageshort}}](/docs/services/knowledge-studio/preannotation.html#wks_preannotalchemy) for details.
-- Import industry-specific dictionaries that you downloaded from [{{site.data.keyword.Bluemix_notm}} Analytics Exchange ](/docs/services/knowledge-studio/dictionaries.html#wks_projdictionaries).
-- Import analyzed documents that are in [UIMA CAS XMI format](/docs/services/knowledge-studio/preannotation.html#wks_uimaweximport). For example, you can import UIMA CAS XMI files that were exported from {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} Explorer content analytics collections or [{{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} Explorer Content Analytics Studio ](/docs/services/knowledge-studio/preannotation.html#wks_uimawexstudio).
+- Import analyzed documents that are in [UIMA CAS XMI format](/docs/services/knowledge-studio/preannotation.html#wks_uimaweximport). For example, you can import UIMA CAS XMI files that were exported from {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} Explorer content analytics collections or [{{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} Explorer Content Analytics Studio](/docs/services/knowledge-studio/preannotation.html#wks_uimawexstudio).
 - Deploy a [machine-learning](/docs/services/knowledge-studio/publish-ml.html#wks_madiscovery) or [rule-based](/docs/services/knowledge-studio/rule-annotator-model-use.html#wks_rule_discovery) model to use with the {{site.data.keyword.watson}} {{site.data.keyword.discoveryshort}} service.
 - Deploy a [machine-learning](/docs/services/knowledge-studio/publish-ml.html#wks_manlu) or [rule-based](/docs/services/knowledge-studio/rule-annotator-model-use.html#wks_rule_nlu) model to use with the {{site.data.keyword.nlushort}} service.
 - [Export a machine-learning model](/docs/services/knowledge-studio/publish-ml.html#wks_maexport) to use in {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} Explorer.
