@@ -66,6 +66,8 @@ Watson Knowledge Studio
         coref-gif.md
         relation-gif.md
 
+    backup-restore.md
+    client-migration.md
     upgrade.md
     {: .navgroup-end}
 
