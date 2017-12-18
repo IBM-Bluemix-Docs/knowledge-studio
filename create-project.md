@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-14"
+lastupdated: "2017-11-9"
 
 ---
 
@@ -16,6 +16,9 @@ lastupdated: "2017-08-14"
 {:java: .ph data-hd-programlang='java'}
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
+
+This documentation is for {{site.data.keyword.knowledgestudiofull}} on {{site.data.keyword.IBM}} Marketplace. To see the documentation for the new version of {{site.data.keyword.knowledgestudioshort}} on {{site.data.keyword.cloud_notm}}, [click this link ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/watson-knowledge-studio/create-project.html){: new_window}.
+{: tip}
 
 # Creating a project
 {: #create-project}
@@ -261,8 +264,8 @@ IBM Watson Explorer
     you must have a valid AlchemyLanguage
     Advanced plan key ID.</p>
   <p class="p">To deploy to Watson Discovery
-    service, you must know the service IBM&reg;
-    Bluemix&reg; space and instance names.</p>
+    service, you must know the service
+    {{site.data.keyword.Bluemix}} space and instance names.</p>
 </td>
 </tr>
 </table>
@@ -316,9 +319,8 @@ Watson Discovery
     you must have a valid AlchemyLanguage
     Advanced plan key ID.</p>
   <p class="p">To deploy to Watson Discovery
-    service, you must know the service IBM Bluemix
+    service, you must know the service {{site.data.keyword.Bluemix_notm}}
     space and instance names.</p>
 </td>
 </tr>
 </table>
-
