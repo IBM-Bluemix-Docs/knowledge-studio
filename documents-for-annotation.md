@@ -139,7 +139,7 @@ To add documents to a project:
               CAS XMI format, you can
               import the <code>ZIP</code> file that contains the analyzed content. Specify that this is
               the type of content you want to import before you click <b>Import</b>. For details
-              about how to create these files and requirements for importing them, see [Importing pre-annotated documents ![External link icon](../../icons/launch-glyph.svg "External link icon")](wks_preannotate.html#wks_uima){: new_window}.</p>
+              about how to create these files and requirements for importing them, see [Importing pre-annotated documents ![External link icon](../../icons/launch-glyph.svg "External link icon")](preannotation.html#wks_uima){: new_window}.</p>
           </td>
         </tr>
       </tbody>
