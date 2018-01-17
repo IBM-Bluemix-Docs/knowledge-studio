@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-16"
+  years: 2015, 2018
+lastupdated: "2018-01-16"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-12-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-This documentation is for {{site.data.keyword.knowledgestudiofull}} on {{site.data.keyword.IBM}} Marketplace. To see the documentation for the new version of {{site.data.keyword.knowledgestudioshort}} on {{site.data.keyword.cloud_notm}}, [click this link ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/watson-knowledge-studio/accessibility.html){: new_window}.
+This documentation is for {{site.data.keyword.knowledgestudiofull}} on {{site.data.keyword.IBM}} Marketplace. To see the documentation for the new version of {{site.data.keyword.knowledgestudioshort}} on {{site.data.keyword.cloud_notm}}, [click this link ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/watson-knowledge-studio/client-migration.html){: new_window}.
 {: tip}
 
 # Migrating to IBM Cloud
@@ -37,8 +37,8 @@ The migration process and schedule for your {{site.data.keyword.knowledgestudios
 |------|-------------------|--------------------|
 | Free plan | Customer migrates instance and data | Migrations must be complete on or before February 1, 2018. On February 2, 2018, all Free plans on {{site.data.keyword.IBM_notm}} Marketplace will be purged, including associated project data. |
 | Standard plan with Pay-As-You-Go account | Customer migrates instance and data | Migrations must be complete on or before June 29, 2018. On June 30, 2018, all Standard plans with Pay-As-You-Go accounts on {{site.data.keyword.IBM_notm}} Marketplace will be purged, including associated project data.
-| Standard plan on contract | Customer migrates instance and data. {{site.data.keyword.IBM_notm}} renews contract. | Migrations must be complete on or before June 29, 2018. Contact your {{site.data.keyword.IBM_notm}} designated account representative or contact [{{site.data.keyword.cloud_notm}} Sales ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibm.biz/bluemixsupport){: new_window}. |
-| Premium plan on contract | {{site.data.keyword.IBM_notm}} migrates instance and data. {{site.data.keyword.IBM_notm}} renews contract. | Migrations must be complete on or before June 29, 2018. Contact your {{site.data.keyword.IBM_notm}} designated account representative or contact [{{site.data.keyword.cloud_notm}} Sales ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibm.biz/bluemixsupport){: new_window}. |
+| Standard plan on contract | Customer migrates instance and data. {{site.data.keyword.IBM_notm}} renews contract. | Migrations must be complete on or before June 29, 2018. Contact your {{site.data.keyword.IBM_notm}} designated account representative or contact [{{site.data.keyword.cloud_notm}} Sales ![External link icon](../../icons/launch-glyph.svg "External link icon")](mailto:watplat@us.ibm.com?subject=WKS Customer Migration). |
+| Premium plan on contract | {{site.data.keyword.IBM_notm}} migrates instance and data. {{site.data.keyword.IBM_notm}} renews contract. | Migrations must be complete on or before June 29, 2018. Contact your {{site.data.keyword.IBM_notm}} designated account representative or contact [{{site.data.keyword.cloud_notm}} Sales ![External link icon](../../icons/launch-glyph.svg "External link icon")](mailto:watplat@us.ibm.com?subject=WKS Customer Migration). |
 {: caption="Table 1. Process and schedule to migrate {{site.data.keyword.knowledgestudioshort}} from {{site.data.keyword.IBM_notm}} Marketplace to {{site.data.keyword.cloud_notm}}" caption-side="top"}
 
 ## Migration of Free plans
@@ -46,13 +46,13 @@ The migration process and schedule for your {{site.data.keyword.knowledgestudios
 
 If you have a {{site.data.keyword.knowledgestudioshort}} Free plan, complete the following steps to migrate your instance and projects from {{site.data.keyword.IBM_notm}} Marketplace to {{site.data.keyword.cloud_notm}}:
 
-1. If you don't have an {{site.data.keyword.cloud_notm}} account, sign up on [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/){: new_window} by using your {{site.data.keyword.ibmid}} from {{site.data.keyword.IBM_notm}} Marketplace.
+1. If you don't have an {{site.data.keyword.cloud_notm}} account, sign up on [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibm.biz/wks_cloud){: new_window} by using your {{site.data.keyword.ibmid}} from {{site.data.keyword.IBM_notm}} Marketplace.
 
    Your {{site.data.keyword.ibmid}} is the ID that you use to log in to {{site.data.keyword.knowledgestudioshort}} on {{site.data.keyword.IBM_notm}} Marketplace.
 
 1. Log in to [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/dashboard/apps/){: new_window}.
-1. If you don't have a {{site.data.keyword.knowledgestudioshort}} instance on {{site.data.keyword.cloud_notm}}, create one on the [{{site.data.keyword.cloud}} catalog {{site.data.keyword.knowledgestudioshort}} page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/services/knowledge-studio){: new_window}.
-1. Follow the [backup and restore](/docs/services/watson-knowledge-studio/backup-restore.html) process to manually migrate your projects from the {{site.data.keyword.IBM_notm}} Marketplace instance to your instance on {{site.data.keyword.cloud_notm}}.
+1. If you don't have a {{site.data.keyword.knowledgestudioshort}} instance on {{site.data.keyword.cloud_notm}}, create one on the [{{site.data.keyword.cloud_notm}} catalog {{site.data.keyword.knowledgestudioshort}} page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/services/knowledge-studio){: new_window}.
+1. Follow the [backup and restore](/docs/services/knowledge-studio/backup-restore.html) process to manually migrate your projects from the {{site.data.keyword.IBM_notm}} Marketplace instance to your instance on {{site.data.keyword.cloud_notm}}.
 
 ## Migration of Standard plans for Pay-As-You-Go accounts
 {: migratepaygo}
@@ -64,10 +64,20 @@ If you have a Standard plan and a [Pay-As-You-Go ![External link icon](../../ico
    Your {{site.data.keyword.ibmid}} is the ID that you use to log in to {{site.data.keyword.knowledgestudioshort}} on {{site.data.keyword.IBM_notm}} Marketplace.
 
 1. Log in to [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/dashboard/apps/){: new_window}.
-1. If you don't have a {{site.data.keyword.knowledgestudioshort}} instance on {{site.data.keyword.cloud_notm}}, create one on the [{{site.data.keyword.cloud}} catalog {{site.data.keyword.knowledgestudioshort}} page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/services/knowledge-studio){: new_window}.
-1. Follow the [backup and restore](/docs/services/watson-knowledge-studio/backup-restore.html) process to manually migrate your projects from the {{site.data.keyword.IBM_notm}} Marketplace instance to your instance on {{site.data.keyword.cloud_notm}}.
+1. If you don't have a {{site.data.keyword.knowledgestudioshort}} instance on {{site.data.keyword.cloud_notm}}, create one on the [{{site.data.keyword.cloud_notm}} catalog {{site.data.keyword.knowledgestudioshort}} page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/services/knowledge-studio){: new_window}.
+1. Follow the [backup and restore](/docs/services/knowledge-studio/backup-restore.html) process to manually migrate your projects from the {{site.data.keyword.IBM_notm}} Marketplace instance to your instance on {{site.data.keyword.cloud_notm}}.
 
-## Migration of Standard or Premium plans for contract accounts
+## Migration of Standard plans for contract accounts
 {: migratecontract}
 
-If you have a {{site.data.keyword.knowledgestudioshort}} Standard plan or Premium plan on contract, contact your {{site.data.keyword.IBM_notm}} designated account representative or contact [{{site.data.keyword.cloud_notm}} Sales ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ibm.biz/bluemixsupport){: new_window}. Once the contract is renewed on {{site.data.keyword.cloud_notm}}, your data will be migrated by IBM on a schedule that is negotiated between you and {{site.data.keyword.cloud_notm}}.
+If you have a {{site.data.keyword.knowledgestudioshort}} Standard plan on contract, complete the following steps to renew your contract and migrate your instance and projects from {{site.data.keyword.IBM_notm}} Marketplace to {{site.data.keyword.cloud_notm}}:
+
+1. To renew your contract, contact your {{site.data.keyword.IBM_notm}} designated account representative or contact [{{site.data.keyword.cloud_notm}} Sales ![External link icon](../../icons/launch-glyph.svg "External link icon")](mailto:watplat@us.ibm.com?subject=WKS Customer Migration).
+1. After you renew your contract on {{site.data.keyword.cloud_notm}}, log in to [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/dashboard/apps/){: new_window}.
+1. If you don't have a {{site.data.keyword.knowledgestudioshort}} instance on {{site.data.keyword.cloud_notm}}, create one on the [{{site.data.keyword.cloud_notm}} catalog {{site.data.keyword.knowledgestudioshort}} page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/services/knowledge-studio){: new_window}.
+1. Follow the [backup and restore](/docs/services/knowledge-studio/backup-restore.html) process to manually migrate your projects from the {{site.data.keyword.IBM_notm}} Marketplace instance to your instance on {{site.data.keyword.cloud_notm}}.
+
+## Migration of Premium plans for contract accounts
+{: migratecontract}
+
+If you have a {{site.data.keyword.knowledgestudioshort}} Premium plan on contract, contact your {{site.data.keyword.IBM_notm}} designated account representative or contact [{{site.data.keyword.cloud_notm}} Sales ![External link icon](../../icons/launch-glyph.svg "External link icon")](mailto:watplat@us.ibm.com?subject=WKS Customer Migration). Once the contract is renewed on {{site.data.keyword.cloud_notm}}, your data will be migrated by IBM on a schedule that is negotiated between you and {{site.data.keyword.cloud_notm}}.
