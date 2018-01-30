@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-17"
+lastupdated: "2018-01-30"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2018-01-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-This documentation is for {{site.data.keyword.knowledgestudiofull}} on {{site.data.keyword.IBM}} Marketplace. To see the documentation for the new version of {{site.data.keyword.knowledgestudioshort}} on {{site.data.keyword.cloud_notm}}, [click this link ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/watson-knowledge-studio/accessibility.html){: new_window}.
+This documentation is for {{site.data.keyword.knowledgestudiofull}} on {{site.data.keyword.IBM}} Marketplace. To see the documentation for the new version of {{site.data.keyword.knowledgestudioshort}} on {{site.data.keyword.cloud_notm}}, [click this link ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/watson-knowledge-studio/upgrade.html){: new_window}.
 {: tip}
 
 # Upgrading your pricing plan
@@ -26,6 +26,6 @@ This documentation is for {{site.data.keyword.knowledgestudiofull}} on {{site.da
 To upgrade the level of your service, see the [{{site.data.keyword.cloud}} catalog {{site.data.keyword.knowledgestudioshort}} page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/services/knowledge-studio){: new_window}.
 {: shortdesc}
 
-**Note**: Downgrading your plan on {{site.data.keyword.IBM_notm}} Marketplace is not supported.
+If you upgrade from the {{site.data.keyword.knowledgestudioshort}} Free plan, you'll need to manually migrate your workspaces following the [backup and restore](/docs/services/knowledge-studio/backup-restore.html) process.
 
-If you upgrade from the {{site.data.keyword.knowledgestudioshort}} Free plan, you'll need to manually migrate your workspaces following the [backup and restore](/docs/services/watson-knowledge-studio/backup-restore.html) process.
+**Note**: Downgrading your plan on {{site.data.keyword.IBM_notm}} Marketplace is not supported.
