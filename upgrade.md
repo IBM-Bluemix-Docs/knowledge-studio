@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-18"
+  years: 2015, 2018
+lastupdated: "2018-01-17"
 
 ---
 
@@ -25,5 +25,7 @@ This documentation is for {{site.data.keyword.knowledgestudiofull}} on {{site.da
 
 To upgrade the level of your service, see the [{{site.data.keyword.cloud}} catalog {{site.data.keyword.knowledgestudioshort}} page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/services/knowledge-studio){: new_window}.
 {: shortdesc}
+
+**Note**: Downgrading your plan on {{site.data.keyword.IBM_notm}} Marketplace is not supported.
 
 If you upgrade from the {{site.data.keyword.knowledgestudioshort}} Free plan, you'll need to manually migrate your workspaces following the [backup and restore](/docs/services/watson-knowledge-studio/backup-restore.html) process.
