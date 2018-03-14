@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-05"
+  years: 2015, 2018
+lastupdated: "2018-03-12"
 
 ---
 
@@ -130,24 +130,6 @@ The following events can cause problems with deployed models:
 **Related tasks**:
 
 [Deploying a machine-learning annotator to {{site.data.keyword.IBM_notm}} {{site.data.keyword.alchemylanguageshort}}](/docs/services/knowledge-studio/publish-ml.html#wks_mabluemix)
-
-### Problem
-
-You cannot pre-annotate documents with the AlchemyLanguage pre-annotator.
-
-### Symptom
-
-When you try to pre-annotate documents with the AlchemyLanguage pre-annotator, you see the following error message:
-
-`PREANNOTATE: The process failed. An AlchemyAPI error occurred: Reach API limit`
-
-### Cause
-
-There is a daily API call limit for the service.
-
-### Resolving the problem
-
-Wait 24 hours, and then run the pre-annotator again.
 
 ## Can't create a free account
 {: #wks_ts_free}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-9"
+  years: 2015, 2018
+lastupdated: "2018-03-12"
 
 ---
 
@@ -123,10 +123,9 @@ and relation types for your domain.</p>
 <p class="p">You cannot see a visualization of the type
 system.</p>
 </td>
-<td valign="top" headers="d25459e256" class="stentry"><ul class="ul bullets"><li class="li"><p class="p wrapper">JSON file that you exported from a 
+<td valign="top" headers="d25459e256" class="stentry"><ul class="ul bullets"><li class="li"><p class="p wrapper">JSON file that you exported from a
 Watson Knowledge
-Studio
- project</p></li>
+Studio project</p></li>
 <li class="li"><p class="p wrapper">ZIP file that you exported from the Human Annotation Tool (HAT)</p></li>
 </ul>
 </td>
@@ -186,9 +185,8 @@ annotation. </p>
 <li class="li"><p class="p wrapper">DOCXML file in UTF-8 format</p></li>
 <li class="li"><p class="p wrapper">Text in UTF-8 format</p></li>
 <li class="li"><p class="p wrapper">ZIP file that contains documents exported from another corpus</p></li>
-<li class="li"><p class="p wrapper">ZIP file that contains documents in 
-UIMA
- CAS XMI format</p></li>
+<li class="li"><p class="p wrapper">ZIP file that contains documents in
+UIMA CAS XMI format</p></li>
 </ul>
 </td>
 <td valign="top" headers="d25459e337" class="stentry"><ul class="ul bullets"><li class="li"><p class="p wrapper">ZIP archive file of documents</p></li>
@@ -201,12 +199,10 @@ UIMA
 </td>
 </tr>
 <tr class="strow"><td valign="top" headers="d25459e331" class="stentry"><p class="p wrapper">Pre-annotation</p></td>
-<td valign="top" headers="d25459e333" class="stentry"><p class="p wrapper">Use a dictionary or 
-AlchemyLanguage
-pre-annotator to
-provide a starting point for human annotation.</p><p class="p">You cannot re-annotate a corpus from 
+<td valign="top" headers="d25459e333" class="stentry"><p class="p wrapper">Use a dictionary to
+provide a starting point for human annotation.</p><p class="p">You cannot re-annotate a corpus from
 IBM Watson Discovery Advisor
- or 
+ or
 IBM Watson Explorer
 .</p>
 </td>
@@ -245,16 +241,14 @@ do extensive feature engineering.</p>
 </tr>
 <tr class="strow"><td valign="top" headers="d25459e331" class="stentry"><p class="p wrapper">Publication</p></td>
 <td valign="top" headers="d25459e333" class="stentry"><p class="p wrapper">Publish a machine-learning annotator to use for performing text extraction in other
-
-Watson
- applications. </p></td>
+Watson applications. </p></td>
 <td valign="top" headers="d25459e335" class="stentry"><p class="p wrapper">Not applicable</p></td>
-<td valign="top" headers="d25459e337" class="stentry"><ul class="ul bullets"><li class="li"><p class="p wrapper">model ID (for use in 
+<td valign="top" headers="d25459e337" class="stentry"><ul class="ul bullets"><li class="li"><p class="p wrapper">model ID (for use in
 AlchemyLanguage
- or 
+ or
 Watson Discovery
  services) </p></li>
-<li class="li"><p class="p wrapper">ZIP file (for use in 
+<li class="li"><p class="p wrapper">ZIP file (for use in
 IBM Watson Explorer
 )</p></li>
 </ul>
@@ -303,13 +297,12 @@ and rules.</p>
 </td>
 </tr>
 <tr class="strow"><td valign="top" headers="d25459e509" class="stentry"><p class="p wrapper">Publication</p></td>
-<td valign="top" headers="d25459e511" class="stentry"><p class="p wrapper">Publish a rule-based model to use for performing pattern recognition in other 
-Watson
- applications.</p></td>
+<td valign="top" headers="d25459e511" class="stentry"><p class="p wrapper">Publish a rule-based model to use for performing pattern recognition in other
+Watson applications.</p></td>
 <td valign="top" headers="d25459e513" class="stentry"><p class="p wrapper">Not applicable</p></td>
-<td valign="top" headers="d25459e515" class="stentry"><ul class="ul bullets"><li class="li"><p class="p wrapper">model ID (for use in 
+<td valign="top" headers="d25459e515" class="stentry"><ul class="ul bullets"><li class="li"><p class="p wrapper">model ID (for use in
 AlchemyLanguage
- or 
+ or
 Watson Discovery
  services) </p></li>
 </ul>

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-29"
+  years: 2015, 2018
+lastupdated: "2018-03-13"
 
 ---
 
@@ -25,6 +25,14 @@ This documentation is for {{site.data.keyword.knowledgestudiofull}} on {{site.da
 
 The following new features and changes to {{site.data.keyword.knowledgestudiofull}} are available.
 {: shortdesc}
+
+## March 2018
+{: #march2018}
+
+### Changes
+{: #new-march2018}
+
+- {{site.data.keyword.alchemylanguagefull}} is no longer available as a pre-annotator. If you migrate to {{site.data.keyword.knowledgestudioshort}} on {{site.data.keyword.cloud}}, you can use {{site.data.keyword.nlushort}} to pre-annotate your documents. For information about migrating to {{site.data.keyword.knowledgestudioshort}} on {{site.data.keyword.cloud}}, see [Migrating to {{site.data.keyword.cloud}}](/docs/services/knowledge-studio/client-migration.html#migrate)
 
 ## November 2017
 {: #november2017}

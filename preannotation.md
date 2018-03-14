@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-14"
+  years: 2015, 2018
+lastupdated: "2018-03-13"
 
 ---
 
@@ -28,7 +28,7 @@ Simplify the job of the human annotator by pre-annotating the documents in a pro
 
 Pre-annotation makes the job of human annotators easier because it covers the straight-forward annotations, and gets the job of annotating the documents underway.
 
-The method that you use to pre-annotate documents in no way restricts the ways that you can use the resulting model. For example, just because you use the {{site.data.keyword.alchemylanguageshort}} service to pre-annotate documents does not mean you must deploy the final machine-learning model that you build to the {{site.data.keyword.alchemylanguageshort}} service. Pre-annotation is solely meant to bootstrap the human annotation process.
+The method that you use to pre-annotate documents in no way restricts the ways that you can use the resulting model. Pre-annotation is solely meant to bootstrap the human annotation process.
 
 ## Important notes
 
@@ -39,10 +39,9 @@ The method that you use to pre-annotate documents in no way restricts the ways t
 
 The following pre-annotators are available:
 
-- **{{site.data.keyword.alchemylanguageshort}}**
+- **{{site.data.keyword.nlushort}}**
 
-    Powerful pre-annotator that uses a private knowledge base that was built from a vast amount of web-crawled data to recognize mentions of common entities. Because its source data is public web sites, it is good at recognizing entities in general knowledge areas. If your source documents have general knowledge subject matter, then this pre-annotator is a good choice for you. If you are working with highly specialized documents that focus on a specific field, such as patent law research, for example, the dictionary pre-annotator or rule annotator might be a better choice.
-    >Note: The {{site.data.keyword.alchemylanguageshort}} service has been deprecated. This pre-annotator might not be listed as an annotator component option.
+    If you migrate to {{site.data.keyword.knowledgestudioshort}} on {{site.data.keyword.cloud}}, {{site.data.keyword.nlushort}} is available to use to pre-annotate your documents. For information, see [Migrating to {{site.data.keyword.cloud}}](/docs/services/knowledge-studio/client-migration.html#migrate)
 
 - **Dictionary**
 
@@ -59,85 +58,6 @@ The following pre-annotators are available:
 Alternatively, you can import already-annotated documents, and use them to start training the machine-learning model. You cannot run a pre-annotator on annotated documents that you import or the existing annotations will be stripped from the documents and replaced with annotations produced by the pre-annotator only.
 
 > **Note:** You *can* run a pre-annotator on documents that were added to the ground truth as part of the current project. Annotations that were added to the documents, reviewed, accepted, and promoted to ground truth within the current project are not stripped out.
-
-## Pre-annotating documents with IBM Watson AlchemyLanguage
-{: #wks_preannotalchemy}
-
-You can use the {{site.data.keyword.alchemylanguageshort}} service to pre-annotate documents that you add to your corpus.
->Note: The {{site.data.keyword.alchemylanguageshort}} service has been deprecated. This pre-annotator might not be available for use.
-
-### Before you begin
-
-Determine whether the {{site.data.keyword.alchemylanguageshort}} pre-annotator is likely to add value for your use case. Review the entity types that are recognized by {{site.data.keyword.alchemylanguageshort}}. To see a list, log in as a {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} administrator and open the **Annotator Component** page. On the {{site.data.keyword.alchemylanguageshort}} tile, click **Create this type of pre-annotator**. Review the list of supported {{site.data.keyword.alchemylanguageshort}} entity types to determine if there is a natural overlap between them and the types in your type system. If so, continue with this procedure. If not, choose a different pre-annotator to use.
-
-### About this task
-
-{{site.data.keyword.alchemylanguageshort}} is a collection of APIs that offer text analysis through natural language processing. When you use the {{site.data.keyword.alchemylanguageshort}} pre-annotator, it calls the {{site.data.keyword.alchemylanguageshort}} entity extraction service to find and annotate entities in your documents.
-
-You must specify the entity types that you want the service to look for by mapping the {{site.data.keyword.alchemylanguageshort}} entity types that you want to find and annotate to corresponding {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} entity types that you have added to the {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} type system. Only mentions of entity types that you map will be found and annotated. You can review the entity types that the {{site.data.keyword.alchemylanguageshort}} service recognizes by reviewing the list that is displayed in the {{site.data.keyword.alchemylanguageshort}} Type Matching page, which is displayed when you perform the following procedure.
-
-> **Note:** You cannot use the {{site.data.keyword.alchemylanguageshort}} pre-annotator on documents that are written in Arabic, Japanese, or Korean, because those languages are not currently supported by the {{site.data.keyword.alchemylanguageshort}} entity extraction service.
-
-### Procedure
-
-To use the {{site.data.keyword.alchemylanguageshort}} service to pre-annotate documents, complete the following steps:
-
-1. Log in as a {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} administrator and open the **Annotator Component** page.
-1. Under the **{{site.data.keyword.alchemylanguageshort}}** pre-annotator type, click **Create this type of pre-annotator**.
-1. Map entity types that you defined in the {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} type system to corresponding {{site.data.keyword.alchemylanguageshort}} entity types.
-
-    - The drop-down list of the **{{site.data.keyword.alchemylanguageshort}}** Entity Type field is pre-populated with entity types that are recognized by the {{site.data.keyword.alchemylanguageshort}} entity extraction service.
-    - You must map at least one entity type.
-    - You cannot map an {{site.data.keyword.alchemylanguageshort}} entity type to a {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} entity role, only {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} entity types.
-    - You can map more than one {{site.data.keyword.alchemylanguageshort}} entity type to a single {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} entity type, or the other way around. For example, the following mappings are permitted:
-
-    <table cellpadding="4" cellspacing="0" summary="Sample mapping of entity types" border="1" class="simpletable"><tr class="sthead"><th valign="bottom" align="left" id="d20428e292" class="stentry thleft thbot">Watson Knowledge Studio Entity Type</th>
-        <th valign="bottom" align="left" id="d20428e298" class="stentry thleft thbot">AlchemyLanguage Entity Type</th>
-      </tr>
-      <tr class="strow"><td valign="top" headers="d20428e292" class="stentry"><ul class="ul bullets"><li class="li"><p class="p wrapper">ENGINEER</p></li>
-            <li class="li"><p class="p wrapper">SCIENTIST</p></li>
-          </ul>
-        </td>
-        <td valign="top" headers="d20428e298" class="stentry"><p class="p wrapper">Person</p></td>
-      </tr>
-      <tr class="strow"><td valign="top" headers="d20428e292" class="stentry"><p class="p wrapper">LOCATION</p></td>
-        <td valign="top" headers="d20428e298" class="stentry"><ul class="ul bullets"><li class="li"><p class="p wrapper">City</p></li>
-            <li class="li"><p class="p wrapper">Country</p></li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    {: #wks_preannotalchemy__datasimpletable_cm1_y3g_fx}
-
-1. After mapping all of the entity types that you want to capture, click **Create** &gt; **Create &amp; Run** to run the pre-annotator.
-
-    The **Run** option is not available until you map at least one entity type.
-
-1. Select the check box for each document set that you want to pre-annotate.
-
-    If you are running this pre-annotator for the first time, first validate that the pre-annotator can find mentions of the mapped entities as expected. Create one document set that contains a representative document or documents from each distinct data source.
-    {: tip}
-
-1. Click **Run**.
-
-    If you are doing a validation check of the pre-annotator, then open the annotated documents and review the annotations that were added. Make sure a sufficient number of accurate annotations were created. If the annotations are accurate, then you can run the annotator again on more and larger document sets. If the annotations are not accurate, then consider mapping different {{site.data.keyword.alchemylanguageshort}} entity types to your types. If the types do not naturally overlap, then the {{site.data.keyword.alchemylanguageshort}} pre-annotator is not the best pre-annotator for you to use.
-
-    Pre-annotation is applied to individual documents without regard for the various document sets that a document might belong to. A document that overlaps between a selected document set and an unselected document will appear pre-annotated in both document sets.
-
-1. After you run the pre-annotator once, you can click **Run** any time that you want to use it to pre-annotate additional document sets that you add to the corpus.
-
-    > **Restriction:** If you edit the type mapping definition of the {{site.data.keyword.alchemylanguageshort}} pre-annotator, then you must re-create annotation tasks that include the pre-annotated document sets. Pre-annotation based on the changes that you make to the pre-annotator mapping definition cannot be applied to document sets that are already assigned to an annotation task.
-
-### Results
-{: #wks_preannotalchemy__export-warning}
-
-Ground truth that is produced by documents that were pre-annotated by the {{site.data.keyword.alchemylanguageshort}} service cannot be used directly outside of {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}}. You can export the ground truth (in non-readable form) to move it from one {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} project to another. And you can continue to develop the ground truth and use it to build a machine-learning or rule-based model that can be deployed for use in services outside of the {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} tool.
-
-> **Restriction:** Only documents that were pre-annotated with {{site.data.keyword.alchemylanguageshort}} are obscured into a non-readable format at export time. But, all annotations in those documents are obscured, including annotations that were added to the documents by human annotators.
-
-**Related information**:
-
-[http://www.ibm.com/watson/developercloud/alchemy-language.html ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/watson/developercloud/alchemy-language.html){: new_window}
 
 ## Pre-annotating documents with the Dictionary pre-annotator
 {: #wks_preannot}

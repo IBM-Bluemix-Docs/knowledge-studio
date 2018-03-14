@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-14"
+  years: 2015, 2018
+lastupdated: "2018-03-12"
 
 ---
 
@@ -51,7 +51,7 @@ To import dictionaries, open the **Dictionaries** page and either add a `CSV` fi
 
 To export documents that you added to the corpus, open the **Documents** page and click **Export**. The system creates a file named `corpus-ID.zip` and prompts you to download the file to your local system. The `ZIP` file contains all documents in the corpus. Annotations that were added to annotation sets are included in the ZIP file, but only after the annotation sets have been approved and promoted to ground truth.
 
-> **Restriction:** Any documents that were pre-annotated with {{site.data.keyword.alchemylanguageshort}} will be obscured into a non-readable format when they are exported. Even annotations in those documents that were added by human annotation are unreadable.
+> **Restriction:** Any documents that were pre-annotated will be obscured into a non-readable format when they are exported. Even annotations in those documents that were added by human annotation are unreadable.
 
 Before you import documents that include ground truth into a new project, you must export the type system from the old project and import it into the new project. The type system and documents must originate from the same {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} project, and the type system must exist in the new project before you import the ground truth annotations.
 
