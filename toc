@@ -73,8 +73,8 @@ Watson Knowledge Studio
 
     {: .navgroup id="help"}
     release-notes.md
-    user-guide-help.md
     troubleshooting.md
+    user-guide-help.md
 
     {: .topicgroup}
     Developer community
