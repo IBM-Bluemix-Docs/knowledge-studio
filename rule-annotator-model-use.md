@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-05"
+  years: 2015, 2018
+lastupdated: "2018-08-13"
 
 ---
 
@@ -35,54 +35,6 @@ For some of the services, you must know details about the service instance that 
 ![Illustration of the {{site.data.keyword.cloud_notm}} Watson Services page. Shows that the instance name is listed in the NAME column and that the regions and space information is displayed in the account details box.](images/bluemix-helper-marked0.jpg)
 
 You can also pre-annotate new documents with the Rule annotator component. See [Pre-annotating documents with the rule annotator](/docs/services/knowledge-studio/preannotation.html#wks_preannotrule) for details.
-
-## Deploying a rule-based annotator to IBM AlchemyLanguage
-{: #wks_rule_bluemix}
-
-This feature enables your applications to use the deployed rule-based model to find and extract entities from documents in your domain.
-
-**Attention**: This is currently an [experimental](/docs/services/knowledge-studio/troubleshooting.html#experimental) feature of the service.
-
-### Before you begin
-
-You must have the {{site.data.keyword.alchemylanguageshort}} service Advanced plan to use this custom model.
-
-### About this task
-
-To deploy to this service, you must have an access key from {{site.data.keyword.IBM_notm}} {{site.data.keyword.alchemylanguageshort}}.
-
-The key must belong to an account that is authorized to publish custom models or the model will be deployed successfully, but you will not be able to use it.
-
-When you deploy the rule annotator, you select the version of it that you want to deploy. You must specify the key the first time you deploy a model to {{site.data.keyword.alchemylanguageshort}}. You can then reuse the key with multiple versions of the model that you deploy. Each key has a maximum number of models that can be deployed at the same time.
-
-### Procedure
-
-To deploy a rule-based annotator to {{site.data.keyword.alchemylanguageshort}} :
-
-1. Log in as a {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} administrator or project manager, open the **Annotator Component** page, and click **Details**.
-1. On the **Publish** tab, choose the version of the model that you want to deploy.
-
-    If there is only one working version of the model, save the current model for deployment by clicking **Save for Deployment**. This versions the model, which enables you to deploy one version, while you continue to improve the current version. Saving the version might take a few minutes. The option to deploy does not appear until after the version is created.
-
-1. Click **Deploy**, choose to deploy it to {{site.data.keyword.alchemylanguageshort}} , and then click **Next**.
-1. Either enter the key that you obtained from {{site.data.keyword.alchemylanguageshort}} or select a previously deployed version of the model that has a key that you want to reuse, and click **Deploy**. If the key is valid, a confirmation that contains the model ID is displayed. This confirmation does not mean that the model is ready for use by your applications.
-1. The deployment process might take a few minutes. To check the status of the deployment, click **Status** on the **Versions** tab next to the version that you deployed. If the model is still being deployed, the status indicates "publishing". After deployment completes, the status changes to "available" if the deployment was successful, or "error" if problems occurred.
-
-    Status information includes the model ID, the last four digits of the {{site.data.keyword.alchemyapishort}} key, and a log of the deployment process. The model ID (model_id) is how your applications call the machine-learning model. Make a note of this model ID because there is no programmatic way to access it later. Use the {{site.data.keyword.alchemyapishort}} key to keep track of the number of deployments per key.
-
-### What to do next
-
-To use the deployed model, you must copy and paste the model ID into your application's API call.
-
-> **Attention:** You cannot use the `GET /info/models` {{site.data.keyword.alchemylanguageshort}} API call to get the model ID of rule-based models programmatically. You can access the model ID of machine-learning models with this call, but not the rule-based model ID. The only way to get the rule-based model ID is to check the deployment status of the model from the **Annotator Component** page of the application.
-
-The call must also specify the {{site.data.keyword.alchemylanguageshort}} service that you want to use with the model and your {{site.data.keyword.alchemyapishort}} access key.
-
-The following endpoint is supported:
-
-- **&lt;*input-type*&gt;GetRankedNamedEntities**
-
-    Uses the custom model that you specify in the model parameter to extract a list of mentions of all known entity types that it finds in the input that you provide. Supported input types include text, HTML, or a public URL. See [{{site.data.keyword.alchemylanguageshort}}&gt;Entities ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/alchemy-language/api/v1/#entities){: new_window} for more information about the API and the syntax to use.
 
 ## Deploying a rule-based annotator to IBM Watson Discovery
 {: #wks_rule_discovery}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-14"
+  years: 2015, 2018
+lastupdated: "2018-08-13"
 
 ---
 
@@ -88,7 +88,7 @@ This stage refers to the use of {{site.data.keyword.watson}} {{site.data.keyword
 ### Annotator component deployment
 {: #wks_lifecycle__wks_lifecycleS5}
 
-This stage refers to exporting components that enable the annotator to run in machine-learning runtime environments and making the annotator component accessible to other {{site.data.keyword.watson}} cognitive applications. For example, you can deploy the machine-learning annotator for use by the {{site.data.keyword.Bluemix}} {{site.data.keyword.alchemyapishort}} or export the annotator for use in {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} Explorer.
+This stage refers to exporting components that enable the annotator to run in machine-learning runtime environments and making the annotator component accessible to other {{site.data.keyword.watson}} cognitive applications. For example, you can export the annotator for use in {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} Explorer.
 
 ## Creating an annotation task
 {: #wks_hatask}

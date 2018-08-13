@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-23"
+lastupdated: "2018-08-13"
 
 ---
 
@@ -94,42 +94,6 @@ However, problems that you can reproduce can have a disadvantage: If the problem
 - Can the problem be re-created on a test system?
 - Are multiple users or applications encountering the same type of problem?
 - Can the problem be re-created by running a single command, a set of commands, or a particular application?
-
-## AlchemyLanguage model issues
-{: #wks_ts_deployed_model_deleted}
-
-### Problem
-
-You cannot deploy an AlchemyLanguage model or the deployment succeeded but the model is not available for use.
-
-### Symptoms
-
-- You deployed a model, but the status shows that an error occurred.
-- You deployed a model and the status indicated that the model was available, but you cannot use it.
-- The model was deployed successfully and worked before, but now it does not work.
-
-### Causes
-
-The following events can cause problems with deployed models:
-
-- If you mistype the {{site.data.keyword.alchemyapishort}} key when you add the key to the `apikey` parameter of the REST API call, then the call will fail. The same is true for the model ID. It is best to copy and paste the model ID and API key to avoid typing errors.
-- If you provide an {{site.data.keyword.alchemyapishort}} key that is invalid or is not authorized to deploy a custom model, then the deployment process will indicate that the model was successfully deployed, but you will not be able to use it.
-- If, while using {{site.data.keyword.alchemylanguageshort}} in {{site.data.keyword.Bluemix}}, you delete all of the service instances that are associated with an {{site.data.keyword.alchemyapishort}} key in {{site.data.keyword.Bluemix_notm}}, then any deployed models that reference that key will be removed from the service. {{site.data.keyword.Bluemix_notm}} periodically checks whether registered models are associated with a valid key, and any models that are not, are deleted. If your model was deployed against a key that gets deleted, the status of the model will change to `error`.
-
-### Resolving the problem
-
-1. Check the status of the deployment.
-
-    Log in as a {{site.data.keyword.watson}} {{site.data.keyword.knowledgestudioshort}} administrator. Open the **Annotator Component** page, and click **Details**. On the Versions tab, click **Status** to check the status of the model that you deployed.
-
-1. If the deployment status of the model is `error` or the status is `available`, but the model does not work when you try to use it, then withdraw the model from deployment by clicking **Undeploy**.
-1. Redeploy the model.
-
-    Use only a valid {{site.data.keyword.alchemyapishort}} key that has authorization to deploy models, and copy and paste the model ID and API key when you add them as parameters to the API call.
-
-**Related tasks**:
-
-[Deploying a machine-learning annotator to {{site.data.keyword.IBM_notm}} {{site.data.keyword.alchemylanguageshort}}](/docs/services/knowledge-studio/publish-ml.html#wks_mabluemix)
 
 ## Can't create a free account
 {: #wks_ts_free}
