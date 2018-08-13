@@ -54,8 +54,6 @@ Watson Knowledge Studio
         evaluate-ml.md
         improve-ml.md
         publish-ml.md
-        alchemylanguage-gif.md
-
 
     {: topicgroup}
     Ground Truth Editor

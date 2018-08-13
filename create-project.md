@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-03-12"
+lastupdated: "2018-08-13"
 
 ---
 
@@ -244,19 +244,14 @@ do extensive feature engineering.</p>
 Watson applications. </p></td>
 <td valign="top" headers="d25459e335" class="stentry"><p class="p wrapper">Not applicable</p></td>
 <td valign="top" headers="d25459e337" class="stentry"><ul class="ul bullets"><li class="li"><p class="p wrapper">model ID (for use in
-AlchemyLanguage
- or
 Watson Discovery
- services) </p></li>
+ service) </p></li>
 <li class="li"><p class="p wrapper">ZIP file (for use in
 IBM Watson Explorer
 )</p></li>
 </ul>
 </td>
 <td valign="top" headers="d25459e339" class="stentry">
-  <p class="p">To deploy into AlchemyLanguage,
-    you must have a valid AlchemyLanguage
-    Advanced plan key ID.</p>
   <p class="p">To deploy to Watson Discovery
     service, you must know the service
     {{site.data.keyword.Bluemix}} space and instance names.</p>
@@ -301,16 +296,11 @@ and rules.</p>
 Watson applications.</p></td>
 <td valign="top" headers="d25459e513" class="stentry"><p class="p wrapper">Not applicable</p></td>
 <td valign="top" headers="d25459e515" class="stentry"><ul class="ul bullets"><li class="li"><p class="p wrapper">model ID (for use in
-AlchemyLanguage
- or
 Watson Discovery
- services) </p></li>
+ service) </p></li>
 </ul>
 </td>
 <td valign="top" headers="d25459e517" class="stentry">
-  <p class="p">To deploy into AlchemyLanguage,
-    you must have a valid AlchemyLanguage
-    Advanced plan key ID.</p>
   <p class="p">To deploy to Watson Discovery
     service, you must know the service {{site.data.keyword.Bluemix_notm}}
     space and instance names.</p>
