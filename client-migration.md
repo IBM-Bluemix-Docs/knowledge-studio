@@ -17,7 +17,7 @@ lastupdated: "2018-08-09"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-This documentation is for {{site.data.keyword.knowledgestudiofull}} on {{site.data.keyword.IBM}} Marketplace. To see the documentation for the new version of {{site.data.keyword.knowledgestudioshort}} on {{site.data.keyword.cloud_notm}}, [click this link ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/watson-knowledge-studio/client-migration.html){: new_window}.
+This documentation is for {{site.data.keyword.knowledgestudiofull}} on {{site.data.keyword.IBM}} Marketplace. To see the documentation for the new version of {{site.data.keyword.knowledgestudioshort}} on {{site.data.keyword.cloud_notm}}, [click this link ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/docs/services/watson-knowledge-studio/client-migration.html){: new_window}.
 {: tip}
 
 # Migrating to IBM Cloud
@@ -47,13 +47,13 @@ The migration process for your {{site.data.keyword.knowledgestudioshort}} projec
 
 If you have a Standard plan, complete the following steps to migrate your instance from {{site.data.keyword.IBM_notm}} Marketplace to {{site.data.keyword.cloud_notm}}:
 
-1. If you don't have an {{site.data.keyword.cloud_notm}} account, sign up on [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/registration/){: new_window} by using your {{site.data.keyword.ibmid}} from {{site.data.keyword.IBM_notm}} Marketplace.
+1. If you don't have an {{site.data.keyword.cloud_notm}} account, sign up on [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/registration/){: new_window} by using your {{site.data.keyword.ibmid}} from {{site.data.keyword.IBM_notm}} Marketplace.
 
    Your {{site.data.keyword.ibmid}} is the ID that you use to log in to {{site.data.keyword.knowledgestudioshort}} on {{site.data.keyword.IBM_notm}} Marketplace.
 
-2. Log in to [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net){: new_window}.
-3. If your {{site.data.keyword.cloud_notm}} account is a Lite account, upgrade to a paid account. For more information about types of paid accounts, see [Account types ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/account/index.html){: new_window}.
-4. From the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/services/knowledge-studio){: new_window}, create a {{site.data.keyword.knowledgestudioshort}} Standard plan.
+2. Log in to [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){: new_window}.
+3. If your {{site.data.keyword.cloud_notm}} account is a Lite account, upgrade to a paid account. For more information about types of paid accounts, see [Account types ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/docs/account/index.html){: new_window}.
+4. From the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/services/knowledge-studio){: new_window}, create a {{site.data.keyword.knowledgestudioshort}} Standard plan.
 5. Follow the instructions on the screen, indicating that you want to migrate an instance from {{site.data.keyword.IBM_notm}} Marketplace to {{site.data.keyword.cloud_notm}}.
 6. If you have more than one instance to migrate, repeat the process.
 
